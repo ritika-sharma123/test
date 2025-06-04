@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className={classes.container}>
-      <Header/>
+      {/* <Header/> */}
       <Routes>
         <Route path="/" element={<Navigate replace to="/Login" />} />
         <Route default path="/login" element={<LoginPage/>}/>
